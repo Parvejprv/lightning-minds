@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact | Lightning Minds</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>
+        <a href="index.html">
+          Lightning Minds
+        </a>
+      </h1>
+    </div>
+    <div class="nav">
+      <button id="hamburger" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar">
+        <li class="item"><a href="index.html">Home</a></li>
+        <li class="item"><a href="resume.html">Resume</a></li>
+        <li class="item"><a href="hire.html">Hire me</a></li>
+        <li class="item"><a href="projects.html">Project</a></li>
+        <li class="item"><a href="about.html" class="active">About</a></li>
+        <li class="item"><a href="contact.html">Contact</a></li>
+        <!-- <li class="item"><a href="reviews.html">Reviews</a></li> -->
+      </ul>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <!-- <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-highlights">
+      <div class="highlights-contact-box">
+        <h3>Contact</h3>
+        <p>
+          Please fill this form and submit it, a <label class="company-name" for="brand-name">Lightning Minds</label> team member will be contact you soon.
+        </p>
+        <form action="php/contact.php" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required>
+
+          <label for="name">Email:</label>
+          <input type="text" name="email" id="email" required>
+
+          <label for="name">Message:</label>
+          <textarea type="text" name="message" id="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section> -->
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-highlights">
+      <div class="highlights-contact-box">
+        <h3>Contact</h3>
+        <p>
+          Please fill this form and submit it, a <label class="company-name" for="brand-name">Lightning Minds</label> team member will be contact you soon.
+        </p>
+        <form action="php/contact.php" method="POST" data-netlify="true">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required>
+
+          <label for="email">Email:</label>
+          <input type="text" name="email" id="email" required>
+
+          <label for="message">Message:</label>
+          <textarea type="text" name="message" id="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          Copyright <i class="fa fa-copyright"></i> 2024 Lightning Minds, All Rights Reserved. | Developed By - <a href="https://www.linkedin.com/in/parvejprv1">Parvej Alam</a>
+        </div>
+        <div class="col-md-6">
+          <ul id="social-icons">
+            <li><a href="#" class="fa fa-facebook-square"></a></li>
+            <li><a href="#" class="fa fa-twitter-square"></a></li>
+            <li><a href="#" class="fa fa-linkedin-square"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="javascript/script.js"></script>
+</body>
+
+</html>
