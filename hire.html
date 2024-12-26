@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <title>Hire Me | Lightning Minds</title>
 </head>
@@ -15,7 +16,7 @@
   <header>
     <div class="logo">
       <h1>
-        <a href="index.html">
+        <a href="#">
           Lightning Minds
         </a>
       </h1>
@@ -39,27 +40,86 @@
   </header>
 
   <!-- About Section -->
-  <section id="hire" class="about-section">
+  <section id="hire" class="about-section full-screen d-lg-flex justify-content-center align-item-center">
+    <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+      <small class="small-text">Welcome to
+        <span class="mobile-block">my portfolio website!</span>
+        <h1 class="animated animated-text">
+          <span class="mr-2">Hey folks, I'm</span>
+          <div class="animated-info">
+            <span class="animated-item">Parvej Alam</span>
+            <span class="animated-item">Java Developer</span>
+            <span class="animated-item">Salesforce Developer</span>
+            <span class="animated-item">Web Developer</span>
+          </div>
+        </h1>
+        <p>
+          Building a successful product is challenge. I am highly energetic in user experience design, interfaces and
+          web development.
+        </p>
+    </div>
+    <div class="custom-button-group mt-4">
+      <a href="Parvej Alam.pdf" target="_blank" class="btn mr-lg-2 custom-btn">
+        <i class="uil uil-file-alt"></i>Download Resume
+      </a>
+      <a href="#contact" class="btn custom-btn custom-btn-bg">
+        Get a free quote
+      </a>
+    </div>
     <h2>Hire Me</h2>
     <div id="resume-section">
       <img src="images/parvejalam img.jpg" alt="Parvej Alam">
       <h1>Parvej Alam</h1>
       <p>Software Developer | Web Enthusiast | Problem Solver</p>
       <!-- Button to Download Resume -->
-      <a href="images/Parvej Alam.pdf" download class="download-btn" target="_blank">
+      <a href="Parvej Alam.pdf" download class="download-btn" target="_blank">
         Download Resume
       </a>
     </div>
   </section>
 
-  
+
+  <!-- CONTACT -->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="contact-form">
+            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+            <form action="" method="get">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-lg-6 col-12">
+                  <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+                </div>
+                <div class="col-lg-6 col-12">
+                  <textarea row="6" name="message" id="message" class="form-control" placeholder="Message"></textarea>
+                </div>
+                <div class="col-lg-6 col-12">
+                  <input type="submit" value="Send Button" class="form-control submit-btn">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
 
   <!-- Footer -->
   <footer id="footer">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          Copyright <i class="fa fa-copyright"></i> 2024 Lightning Minds, All Rights Reserved. | Developed By - <a href="https://www.linkedin.com/in/parvejprv1">Parvej Alam</a>
+          Copyright <i class="fa fa-copyright"></i> 2024 Lightning Minds, All Rights Reserved. | Developed By - <a
+            href="#">Parvej Alam</a>
         </div>
         <div class="col-md-6">
           <ul id="social-icons">
